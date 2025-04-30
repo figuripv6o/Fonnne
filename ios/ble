@@ -1,0 +1,35 @@
+# BLE Profile: 02bchapt1080306017
+
+**MAC Address:** `48:87:2D:83:BC:43`  
+**Chipset:** Dialog Semiconductor (DA14531)  
+**Firmware:** `v_6.0.14.1114`  
+**Bonded:** Yes  
+**MTU:** 256
+
+---
+
+## GATT Summary
+
+### Primary Service
+- `0000ffe0-0000-1000-8000-00805f9b34fb`
+
+### Key Characteristics:
+- **Write & Notify:**  
+  `0000ffe1-0000-1000-8000-00805f9b34fb`  
+  [N, R, W, WNR]  
+  - Notifications enabled via `0x2902`
+
+---
+
+## Device Info
+- **Model:** `DA14531`
+- **System ID:** Present
+- **Tx Power:** Present
+- **PnP ID:** Dialog (0x00D2)
+
+---
+
+## Notes
+- Paired after consent prompt
+- Received payload: `02-00-03-00-00-04-07-03`
+- PHY update unsupported (error 0x6)
