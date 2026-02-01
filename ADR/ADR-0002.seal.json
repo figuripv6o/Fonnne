@@ -1,0 +1,15 @@
+{
+  "adr_id": "ADR-0002",
+  "asset": "Fonnne – Cyber Counter-Surveillance Toolkit",
+  "owner": "Fredrick Flowers",
+  "jurisdiction": "United States",
+  "status": "ACTIVE_LOCKED",
+  "issued_date": "2026-01-31",
+  "issued_time": "SYSTEM_LOG_TIME",
+  "hash_algorithm": "SHA-256",
+  "hash_scope": [
+    "ADR/ADR-0002.md",
+    "LEGAL/LICENSE_MASTER.md"
+  ],
+  "seal_statement": "Any modification to the scoped files invalidates this seal."
+}
