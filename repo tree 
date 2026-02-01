@@ -1,0 +1,34 @@
+fonnne/
+├── ADR/
+│   ├── ADR-0002.md
+│   └── ADR-0002.seal.json
+│
+├── LEGAL/
+│   ├── LICENSE_MASTER.md
+│   ├── licenses/
+│   │   ├── LICENSE_PERSONAL.md
+│   │   ├── LICENSE_COMMERCIAL.md
+│   │   └── LICENSE_RESEARCH.md
+│   └── NOTICE_ENFORCEMENT.md
+│
+├── GOVERNANCE/
+│   ├── OWNERSHIP_DECLARATION.md
+│   ├── AUTHORIZATION_POLICY.md
+│   └── COMPLIANCE_CHECKLIST.md
+│
+├── TOOLS/
+│   ├── hash_seal/
+│   │   ├── generate_seal.sh
+│   │   └── verify_seal.sh
+│   ├── license_intake/
+│   │   ├── intake_form.md
+│   │   └── intake_schema.json
+│   └── repo_guard/
+│       ├── pre-commit
+│       └── pre-receive
+│
+├── DOCS/
+│   ├── LAUNCH_README.md
+│   └── OPERATIONAL_BOUNDARIES.md
+│
+└── README.md
