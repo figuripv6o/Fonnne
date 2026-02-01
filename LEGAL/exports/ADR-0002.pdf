@@ -1,0 +1,53 @@
+ADR-0002 — Ownership & Licensing Declaration
+
+ADR ID: ADR-0002
+System / Asset: Fonnne – Cyber Counter-Surveillance Toolkit
+Status: ACTIVE · LOCKED
+Jurisdiction: United States
+
+Date: 2026-01-31
+Time: SYSTEM_LOG_TIME
+
+Ownership
+Sole Owner:
+Fredrick Flowers
+
+All rights, title, and interest in the system known as “Fonnne – Cyber Counter-Surveillance Toolkit,” including but not limited to:
+• Source code
+• Scripts and automation
+• System architecture
+• Naming, branding, and identifiers
+• Documentation and operational logic
+• Associated hardware integrations (including ESP32 workflows)
+
+are exclusively owned by Fredrick Flowers.
+
+Rights Reserved
+All rights are expressly reserved. No rights are waived, transferred, or implied by publication, access, possession, or visibility.
+
+License Requirement
+No person or entity is authorized to operate, deploy, modify, redistribute, or integrate Fonnne without an explicit written license issued by the Owner.
+
+No implied license exists.
+No default permission exists.
+Access does not constitute authorization.
+
+Legal Operation Clause
+Authorized operation requires:
+• A written license agreement
+• Explicit scope of use
+• Defined term and conditions
+• Owner-approved authorization
+
+Unauthorized use constitutes a violation of ownership rights.
+
+Enforcement Notice
+Unauthorized use may result in revocation, termination, and legal enforcement under applicable intellectual property and contract law.
+
+Declaration
+This document is the authoritative ownership and licensing boundary for Fonnne.
+Nothing not explicitly granted in writing is permitted.
+
+Signed:
+Fredrick Flowers
+Owner
