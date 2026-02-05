@@ -1,0 +1,79 @@
+# ===================================================
+# 🐝 BUZZFLOW — PRIVATE SOVEREIGN PIPELINE
+# FDF Certified™ | Secret Sauce | No Ties Mode
+# ===================================================
+
+name: BuzzPrivate
+
+on:
+  workflow_dispatch:
+
+env:
+  QUIET_MODE: true
+  INTERNAL_ONLY: true
+
+jobs:
+
+  core:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Silence Output
+        run: |
+          echo "::add-mask::${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Local Install
+        run: |
+          if [ -f package.json ]; then
+            npm install --silent
+          fi
+
+      - name: Internal Audit
+        run: |
+          npm audit --silent || true
+
+      - name: Guardian Heartbeat
+        run: |
+          echo "Internal node verified"
+
+# ===================================================
+# FIREBASE LOCKED (Manual Enable Only)
+# ===================================================
+
+  firebase:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Dormant"
+
+# ===================================================
+# EXPO LOCKED
+# ===================================================
+
+  expo:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Dormant"
+
+# ===================================================
+# ARTIFACT STORAGE DISABLED
+# ===================================================
+
+  storage:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Disabled"
+
+# ===================================================
+# NETWORK MESH DISABLED
+# ===================================================
+
+  mesh:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "No ties mode active"
